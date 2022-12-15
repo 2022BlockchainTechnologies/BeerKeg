@@ -1,22 +1,26 @@
 # Beer Keg
+---
 
 *About the Contract*
 A smart contract that lets you purchase liters of beer.
+---
 
 ### Contract Address in the Sepolia-Test-Network
 0x0E2FfbfA392938beA44079dAb888E37b0fF4b7D2
 
 PLS buy some beer, I need the SepoliaETH
+---
 
 ### How to interact
-1.) execute `npm install` in your terminal to make sure you have the required dependencies installed
-2.) create a `.env` file in the root of this project
+1. Execute `npm install` in your terminal to make sure you have the required dependencies installed.
+2. Create a `.env` file in the root of this project.
 **Set up the .env as following:**
 `INFURA_API_KEY=INSERT YOUR API KEY HERE (no quotations)`
 `MNEMONIC="your mnemonic here in quotes"`
-3.) execute npx truffle console --network sepolia in your terminal
-4.) execute let instance = await BeerKeg_Sem_Dominic.deployed() to get the contract instance
-5.) call the functions below and make sure you own a lot of liters of beer
+3. Execute npx truffle console --network sepolia in your terminal.
+4. Execute let instance = await BeerKeg_Sem_Dominic.deployed() to get the contract instance.
+5. Call the functions below and make sure you own a lot of liters of beer.
+---
 
 ### Functions
 The beer keg instance supports the following 3 functions to interact with:
@@ -31,7 +35,8 @@ The beer keg instance supports the following 3 functions to interact with:
 
 Make sure the liters of beer is not as a string but a value and the liters of beer * 0,5 is in a string!
 
-`beerKegBalance(<your-metamaksAccount-public-address>)`: With this function you can check how many liters of beer you currently own
+`beerKegBalance(<your-metamaksAccount-public-address>)`: With this function you can check how many liters of beer you currently own.
+---
 
 ## Developers
 **Sem Sodermans & Dominic Kühne**
