@@ -21,14 +21,17 @@ MNEMONIC="your mnemonic here in quotes"
 ### Functions
 The beer keg instance supports the following 3 functions to interact with:
 
-getKegBalance(): With this function you can check how many liters of beer are currently in the beer keg
+`getKegBalance()`: With this function you can check how many liters of beer are currently still in the beer keg
 
-purchase(unit liters): With this function you can purchase the specified liters of beers. You can get one small beer for  0.3 ether and a large beer for 0.5 ether! So you pay 0.1 ether per 0.1 liter of beer.
-(hint: the function should look like this if you want to purchase a small beer: instance.purchaseSmallBeer(<liters of beer to purchase>, {from: '<your-metamaskAccount-public-address>', value: web3.utils.toWei('<liters of beer to purchase * 0.3>','ether')}) )
-(hint: the function should look like this if you want to purchase a large beer: instance.purchaseLargeBeer(<liters of beer to purchase>, {from: '<your-metamaskAccount-public-address>', value: web3.utils.toWei('<liters of beer to purchase * 0.5>','ether')}) )
+`purchase(Large/Small)Beer(unit liters)`: With this function you can purchase the specified liters of beers. You can get one small beer for  0.3 ether and a large beer for 0.5 ether! So you pay 0.1 ether per 0.1 liter of beer.
+
+`(Tip: the function should look like this if you want to purchase a small beer: instance.purchaseSmallBeer(<liters of beer to purchase>, {from: '<your-metamaskAccount-public-address>', value: web3.utils.toWei('<liters of beer to purchase * 0.3>','ether')}))`
+
+`(Tip: the function should look like this if you want to purchase a large beer: instance.purchaseLargeBeer(<liters of beer to purchase>, {from: '<your-metamaskAccount-public-address>', value: web3.utils.toWei('<liters of beer to purchase * 0.5>','ether')}))`
+
 Make sure the liters of beer is not as a string but a value and the liters of beer * 0,5 is in a string!
 
-beerKegBalance(<your-metamaksAccount-public-address>): With this function you can check how many liters of beer you currently own
+`beerKegBalance(<your-metamaksAccount-public-address>)`: With this function you can check how many liters of beer you currently own
 
 ## Developers
 **Sem Sodermans & Dominic Kühne**
