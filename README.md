@@ -9,11 +9,11 @@ A smart contract that lets you purchase liters of beer.
 PLS buy some beer, I need the SepoliaETH
 
 ### How to interact
-1.) execute npm install in your terminal to make sure you have the required dependencies installed
-2.) create a .env file in the root of this project
+1.) execute `npm install` in your terminal to make sure you have the required dependencies installed
+2.) create a `.env` file in the root of this project
 **Set up the .env as following:**
-INFURA_API_KEY=INSERT YOUR API KEY HERE (no quotations)
-MNEMONIC="your mnemonic here in quotes"
+`INFURA_API_KEY=INSERT YOUR API KEY HERE (no quotations)`
+`MNEMONIC="your mnemonic here in quotes"`
 3.) execute npx truffle console --network sepolia in your terminal
 4.) execute let instance = await BeerKeg_Sem_Dominic.deployed() to get the contract instance
 5.) call the functions below and make sure you own a lot of liters of beer
