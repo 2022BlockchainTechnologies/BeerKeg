@@ -3,12 +3,14 @@
 
 *About the Contract*
 A smart contract that lets you purchase liters of beer.
+
 ---
 
 ### Contract Address in the Sepolia-Test-Network
 0x0E2FfbfA392938beA44079dAb888E37b0fF4b7D2
 
 PLS buy some beer, I need the SepoliaETH
+
 ---
 
 ### How to interact
@@ -20,6 +22,7 @@ PLS buy some beer, I need the SepoliaETH
 3. Execute npx truffle console --network sepolia in your terminal.
 4. Execute let instance = await BeerKeg_Sem_Dominic.deployed() to get the contract instance.
 5. Call the functions below and make sure you own a lot of liters of beer.
+
 ---
 
 ### Functions
@@ -36,6 +39,7 @@ The beer keg instance supports the following 3 functions to interact with:
 Make sure the liters of beer is not as a string but a value and the liters of beer * 0,5 is in a string!
 
 `beerKegBalance(<your-metamaksAccount-public-address>)`: With this function you can check how many liters of beer you currently own.
+
 ---
 
 ## Developers
